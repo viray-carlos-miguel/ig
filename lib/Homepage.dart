@@ -13,7 +13,7 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
-        middle: Text("Instagram",style: TextStyle(color: CupertinoColors.systemBlue, fontSize: 30, fontWeight: FontWeight.bold),),
+        middle: Text("Instagram",style: TextStyle(color: CupertinoColors.white, fontSize: 30, fontWeight: FontWeight.bold),),
       ),
         child: Padding(
           padding: const EdgeInsets.all(10.0),
