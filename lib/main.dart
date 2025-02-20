@@ -62,7 +62,7 @@ class _MyAppState extends State<MyApp> {
                 placeholder: "Username, email or mobile number",
                 padding: EdgeInsets.all(13),
                 decoration: BoxDecoration(
-                  border: Border.all(color: CupertinoColors.secondaryLabel, width: 1),
+                  border: Border.all(color: CupertinoColors.secondarySystemFill),
                   color: CupertinoColors.systemGrey6,
                   borderRadius: BorderRadius.circular(30),
                 ),
@@ -77,7 +77,7 @@ class _MyAppState extends State<MyApp> {
                 padding: EdgeInsets.all(13),
                 obscureText: hidePassword,
                 decoration: BoxDecoration(
-                  border: Border.all(color: CupertinoColors.secondaryLabel, width: 1),
+                  border: Border.all(color: CupertinoColors.systemFill),
                   color: CupertinoColors.systemGrey6,
                   borderRadius: BorderRadius.circular(30),
                 ),
